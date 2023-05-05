@@ -17,6 +17,10 @@ const getUserProfile = async () => {
       <td>${d.name}</td>
       <td>${d.email}</td>
       <td>${d.address.city}</td>
+      <td>${d.phone}</td>
+      <td>${d.website}</td>
+      <td>${d.company.name}</td>
+
    </tr>
     `
   })
