@@ -1,4 +1,4 @@
-const apiUrl = "https://jsonplaceholder.typicode.com/posts";
+const apiUrl = "https://jsonplaceholder.typicode.com/users";
 
 const getUserProfile = async () => {
   const response = await fetch(apiUrl);
