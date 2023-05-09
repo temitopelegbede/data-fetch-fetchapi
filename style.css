@@ -3,23 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-.table-wrappper{
+.card-wrappper{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 500px;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 20px;
 }
-.table-wrappper h2{
+.card-content {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px; 
+  margin-top: 1rem;
   margin-bottom: 1rem;
-}
-table{
-  border-collapse: collapse;
-  width: 80%;
-}
-
-th, td{
-  border: 1px solid gray;
-  padding: 10px;
-  text-align: left;
+width: 20%;
 }
